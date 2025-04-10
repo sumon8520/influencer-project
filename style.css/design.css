@@ -144,6 +144,9 @@
     font-weight: 600;
     color: white;
   }
+  .display-hide{
+    display: none;
+  }
   /* Mobile Responsive Section */
   @media screen and (max-width:576px) {
     .navbar,
@@ -161,6 +164,9 @@
     .nav-items{
       gap: 15px;
     }
+    .banner-img{
+      width: 100%;
+    }
     .banner{
       margin: 20px;
       gap: 20px;
@@ -168,9 +174,15 @@
     .header{
       margin: 20px;
     }
+    .product-image{
+      width: 100%;
+    }
+    .gear-img{
+      width: 100%;
+    }
     /* grid section */
     .company-img{
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
     .product-container{
       grid-template-columns: repeat(1, 1fr);
